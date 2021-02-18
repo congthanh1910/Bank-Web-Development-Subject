@@ -1,0 +1,34 @@
+.editAccount {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .list {
+    background-color: #192637;
+    text-align: center;
+  }
+  .form {
+    background: white;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    margin: auto;
+  }
+  .btn-action {
+    color: black;
+    margin-top: 10px;
+    &:hover {
+      background-color: #192637;
+      color: white;
+    }
+    &:focus {
+      background-color: #192637;
+      color: white;
+    }
+  }
+  .submit {
+    margin-top: 30px;
+    max-width: 300px;
+  }
+}

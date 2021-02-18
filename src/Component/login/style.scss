@@ -1,0 +1,33 @@
+.login {
+  background-image: url("/images/login-background.jpg");
+  background-size: cover;
+  padding-top: 150px;
+  height: 100vh;
+  .paper {
+    color: black;
+    background: white;
+    border-radius: 30px;
+    padding: 50px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .form {
+    width: 100%;
+  }
+  .submit {
+    margin: 24px 0px 16px;
+  }
+  .link-fogotPassword {
+    text-align: center;
+  }
+  .MuiContainer-maxWidthXs {
+    @media (min-width: 0) {
+      max-width: initial;
+    }
+  }
+}

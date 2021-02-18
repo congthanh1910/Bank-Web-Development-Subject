@@ -1,0 +1,211 @@
+.homepage {
+  .main-outer {
+    width: 100%;
+    background-image: url("/images/img1.jpg");
+    background-size: cover;
+    color: white;
+    .main-insider {
+      padding: 150px 0;
+    }
+    h3 {
+      font-size: 70px;
+      line-height: 1.14286;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-weight: 200;
+    }
+    .order-group {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      .order-btn {
+        background: linear-gradient(347.96deg, #0085ff 0%, #68ccf3 100%);
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-weight: 600;
+        margin-top: 30px;
+      }
+    }
+  }
+  .about-bank {
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    h5 {
+      font-size: 48px;
+      font-weight: 300;
+    }
+    .subtitle {
+      color: #29293a;
+      font-size: 14px;
+      max-width: 700px;
+      margin: 25px auto;
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 70px;
+      @media (max-width:760px)
+      {
+        flex-direction: column;
+      }
+      .img {
+        border-radius: 10px;
+        max-width: 100%;
+      }
+      .description {
+        font-size: 14px;
+        color: #29293a;
+        text-align: left;
+        @media (max-width:760px){
+          margin-top:10px;
+        }
+      }
+      .info-item {
+        flex-basis: 40%;
+      }
+    }
+  }
+  .financial {
+    background: #192637;
+    padding: 100px 0;
+    color: white;
+    margin-top: 150px;
+    .statistic {
+      h4 {
+        font-size: 48px;
+        margin-bottom: 50px;
+        font-weight: 300;
+        text-align: center;
+      }
+      .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width:820px){
+          flex-direction: column;
+        }
+        .content {
+          .ceo {
+            float: right;
+          }
+          .author {
+            color: #1e90ff;
+            margin-bottom: 0;
+          }
+          .position {
+            font-style: italic;
+            color: #cccccc;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+        .item {
+          flex-basis: 45%;
+          max-width: 450px;
+          .img {
+            max-height: 300px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .optional {
+    margin-top: 150px;
+    .title {
+      font-size: 48px;
+      font-weight: 300;
+      text-align: center;
+    }
+    .description {
+      font-weight: 300;
+      color: #29293a;
+      font-size: 14px;
+      max-width: 740px;
+      text-align: center;
+      margin: auto;
+      margin-top: 30px;
+    }
+    .list-option {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .option {
+        text-align: center;
+        margin: 10px 20px;
+        max-width: 300px;
+        .icon {
+          color: #1e90ff;
+          font-size: 60px;
+        }
+        .item-title {
+          color: #29293a;
+          font-weight: 400;
+          margin-top: 12px;
+        }
+        .item-description {
+          color: #828590;
+          font-size: 14px;
+          font-weight: 300;
+          letter-spacing: 0.05em;
+        }
+      }
+    }
+  }
+}
+.my-container {
+  max-width: 1200px;
+  margin: auto;
+  @media (max-width:820px){
+    padding: 0 20px;
+  }
+}
+
+.interest-rate {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 830px){
+    flex-direction: column-reverse;
+  }
+  .img {
+    flex: 1;
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 400px;
+      @media (max-width:830px){
+        margin-top:10px;
+      }
+    }
+  }
+  .table-rate {
+    flex: 1;
+    h3 {
+      color: #29293a;
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .MuiTableContainer-root {
+      max-width: 400px;
+      margin: auto;
+    }
+    .MuiTable-root {
+      background: white;
+    }
+    .MuiTableRow-head {
+      background: wheat;
+    }
+    .MuiTableCell-root {
+      text-align: center;
+    }
+  }
+}

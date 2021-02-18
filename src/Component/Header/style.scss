@@ -1,0 +1,95 @@
+.header {
+  position: fixed;
+  padding: 7px 0;
+  width: 100%;
+  background: #192637;
+  color: white;
+  z-index: 100;
+  .header-nav {
+    padding: 0 30px;
+  }
+  p {
+    margin: 0;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: auto;
+    .had-responsive{
+      display: none;
+      @media (max-width:775px){
+        display: block;
+      }
+    }
+    @media (max-width:775px){
+      .not-responsive{
+        display: none;
+      }
+    }
+    .link-group {
+      display: flex;
+      align-items: center;
+      .MuiButton-text {
+        &:focus {
+          outline: none;
+        }
+      }
+      .MuiButton-label {
+        color: white;
+        text-transform: none;
+        font-size: 16px;
+        padding: 10px 15px;
+        &:hover {
+          background: #f4f4f4;
+          color: #192637;
+        }
+      }
+    }
+    .logo {
+      cursor: pointer;
+      height: 60px;
+    }
+    a + a {
+      margin-left: 15px;
+    }
+    .link-btn {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      &:hover {
+        background: #f4f4f4;
+        color: #192637;
+      }
+    
+    }
+    .sign-up {
+      background: white;
+      color: black;
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+  }
+}
+
+//transparent header
+.transparent-header {
+  background: transparent;
+}
+.list-account-btn{
+  color:white;
+  padding-left:7px;
+}
+.list-account-btn-staff{
+  color:white;
+  padding-left:15px;
+}
+.background-color-menu-res{
+ background:  linear-gradient(347.96deg, #0085ff 0%, #68ccf3 100%);
+}
+
